@@ -1,4 +1,3 @@
-#una funcion para crear el ticket de compra con todos los productos
 def buys():
     cart = []
     while True:
@@ -19,7 +18,6 @@ def buys():
                 break
             else: print("Plese select a valid option (Y/N)")
 
-#una funcion que devuelve el ticket de compra
 def print_ticket(sh_cart):
     total = 0
     print("\n---TICKET---")
