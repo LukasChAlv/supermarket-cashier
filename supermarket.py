@@ -1,3 +1,4 @@
+#a function to create the purchase receipt with all the products
 def buys():
     cart = []
     while True:
@@ -18,6 +19,7 @@ def buys():
                 break
             else: print("Plese select a valid option (Y/N)")
 
+#a function that outputs the shopping receipt
 def print_ticket(sh_cart):
     total = 0
     print("\n---TICKET---")
@@ -28,7 +30,7 @@ def print_ticket(sh_cart):
     print(f"------------\nTOTAL: ${total:.2f}\nIVA: ${IVA:.2f}\nTOTAL + IVA: ${(total + IVA):.2f}\n------------")
     return total + IVA
 
-#una funcion que simula el proceso de compra
+#a function that simulates the checkout process
 def process_payment(price):
     while True:
         method = input("\nChoose your payment method: Cash | Card\n--- ").strip().lower()
