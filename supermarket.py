@@ -12,12 +12,12 @@ def buys():
         }
         cart.append(product)
         while True:
-            more = input("¿Do you wish to buy something more? Y/N ").strip().lower()
+            more = input("Do you wish to buy something more? Y/N ").strip().lower()
             if more == "n":
                 return cart
             elif more == "y":
                 break
-            else: print("Plese select a valid option (Y/N)")
+            else: print("Please select a valid option (Y/N)")
 
 #a function that outputs the shopping receipt
 def print_ticket(sh_cart):
@@ -35,7 +35,7 @@ def process_payment(price):
     while True:
         method = input("\nChoose your payment method: Cash | Card\n--- ").strip().lower()
         if method == "card":
-            print("Payment succesful.\nThank you for your purchase!")
+            print("Payment successful.\nThank you for your purchase!")
             break
         elif method == "cash":
             while True:
@@ -43,7 +43,7 @@ def process_payment(price):
                     pay = float(input("Type your amount of money: "))
                     if pay >= price:
                         change = pay - price
-                        print(f"Payment succesful, Change: ${change:.2f}\n")
+                        print(f"Payment successful, Change: ${change:.2f}\n")
                         return
                     else:
                         print("Not enough money, pls try again")
