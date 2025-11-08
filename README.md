@@ -1,9 +1,43 @@
-Python Supermarket Checkout Simulator
+# supermarket-cashier
 
-This is a simple terminal program that simulates a supermarket checkout.
+A Python application simulating a supermarket point of sale system. Easily manage product entries, calculate totals, and print receipts.
 
-It lets users add products with quantities and prices, then generates a detailed purchase ticket including IVA (VAT).
+## Features
 
-For payment, it offers cash or card, and calculates change for cash payments.
+- Add, delete, and manage product entries.
+- Calculate total cost and apply discounts.
+- Generate and print receipts.
+- Simple Python command line interface.
 
-I built this project to practice core Python skills like loops, dictionaries, functions, and handling user input, along with basic input validation.
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/LukasChAlv/supermarket-cashier.git
+    ```
+2. (Optional) Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate    # For Linux/Mac
+    venv\Scripts\activate       # For Windows
+    ```
+3. Install dependencies (if any):
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main script:
+    ```bash
+    python supermarket_cashier.py
+    ```
+2. Follow on-screen instructions to manage sales and products.
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request.
