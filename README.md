@@ -37,7 +37,3 @@ A Python application simulating a supermarket point of sale system. Easily manag
     python supermarket_cashier.py
     ```
 2. Follow on-screen instructions to manage sales and products.
-
-## Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request.
